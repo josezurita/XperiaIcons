@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Browser -->
+    <item component="ComponentInfo{com.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser" />
+    <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser" />
+
+    <!-- Chrome -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="com_android_browser" />
+
+    <!-- Settings -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings}" drawable="com_android_settings" />
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hechogato.xperiaicons"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="14" />
+
+    <application android:icon="@drawable/icon" android:label="@string/theme_title">
+        <activity android:name="com.hechogato.xperiaicons.MainActivity" android:label="@string/theme_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.anddoes.launcher.THEME" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sonymobile.home.ICON_PACK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
