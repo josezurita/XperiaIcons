@@ -5,8 +5,17 @@
     <item component="ComponentInfo{com.google.android.browser/com.android.browser.BrowserActivity}" drawable="com_android_browser" />
 
     <!-- Chrome -->
-    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="com_android_browser" />
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="com_android_chrome" />
 
     <!-- Settings -->
-    <item component="ComponentInfo{com.android.settings/com.android.settings}" drawable="com_android_settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.MainSettings}" drawable="com_android_settings" />
+
+    <!-- Gallery -->
+    <item component="ComponentInfo{com.miui.gallery/com.miui.gallery.activity.HomePageActivity}" drawable="com_android_gallery3d" />
+
+    <!-- FM Radio -->
+    <item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmActivity}" drawable="com_android_fmradio" />
+
+    <!-- Youtube -->
+    <item component="ComponentInfo{com.google.android.youtube/.app.honeycomb.Shell$HomeActivity}" drawable="com_google_android_youtube"/>
 </resources>
