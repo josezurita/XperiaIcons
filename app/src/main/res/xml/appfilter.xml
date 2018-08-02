@@ -6,16 +6,113 @@
 
     <!-- Chrome -->
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="com_android_chrome" />
+    <item component="ComponentInfo{com.android.chrome/com.android.chrome.Main}" drawable="com_android_chrome"/>
 
     <!-- Settings -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.MainSettings}" drawable="com_android_settings" />
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="com_android_settings"/>
+    <item component="ComponentInfo{com.android.settings/com.android.settings.framework.activity.HtcSettings}" drawable="com_android_settings"/>
+
+    <!-- PlayStore -->
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="com_android_vending"/>
+
+    <!-- Dial -->
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activites.DialtactsActivity}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+    <item component="ComponentInfo{com.android.htcdialer/com.android.htcdialer.Dialer}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+    <item component="ComponentInfo{com.sec.android.app.dialertab/com.sec.android.app.dialertab.DialerTabActivity}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+    <item component="ComponentInfo{com.sonyericsson.android.socialphonebook/com.sonyericsson.android.socialphonebook.DialerEntryActivity}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.RecentCallsListActivity}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.DialtactsActivity}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.TwelveKeyDialer}" drawable="com_android_contacts_activities_dialtactsactivity"/>
+
+    <!-- Contacts -->
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="com_android_contacts"/>
+
+    <!-- MMS & SMS -->
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.MmsTabActivity}" drawable="com_android_messenger" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="com_android_messenger"/>
+    <item component="ComponentInfo{com.sonyericsson.conversations/com.sonyericsson.conversations.ui.ConversationListActivity}" drawable="com_android_messenger"/>
+
+    <!-- Themes -->
+    <item component="ComponentInfo{com.android.thememanager/com.android.thememanager.ThemeResourceTabActivity}" drawable="com_android_thememanager"/>
+
+    <!-- Calculator -->
+    <item component="ComponentInfo{com.miui.calculator/com.miui.calculator.cal.CalculatorActivity}" drawable="com_android_calculator2"/>
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="com_android_calculator2"/>
+    <item component="ComponentInfo{com.sec.android.app.calculator/com.sec.android.app.calculator.Calculator}" drawable="com_android_calculator2"/>
+
+    <!-- Compass -->
+    <item component="ComponentInfo{com.miui.compass/com.miui.compass.CompassActivity}" drawable="com_android_compass"/>
+    <item component="ComponentInfo{com.apksoftware.compass/com.apksoftware.compass.Compass}" drawable="com_android_compass"/>
+
+    <!-- Soundrecorder -->
+    <item component="ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.SoundRecorder}" drawable="com_android_soundrecorder"/>
+
+    <!-- Music -->
+    <item component="ComponentInfo{com.miui.player/com.miui.player.ui.MusicBrowserActivity}" drawable="com_android_mediacenter" />
+
+    <!-- Video -->
+    <item component="ComponentInfo{com.miui.videoplayer/com.miui.video.global.app.LauncherActivity}" drawable="com_android_videoplayer" />
 
     <!-- Gallery -->
     <item component="ComponentInfo{com.miui.gallery/com.miui.gallery.activity.HomePageActivity}" drawable="com_android_gallery3d" />
+
+    <!-- Camera -->
+    <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="com_android_camera" />
 
     <!-- FM Radio -->
     <item component="ComponentInfo{com.miui.fm/com.miui.fmradio.FmActivity}" drawable="com_android_fmradio" />
 
     <!-- Youtube -->
-    <item component="ComponentInfo{com.google.android.youtube/.app.honeycomb.Shell$HomeActivity}" drawable="com_google_android_youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity}" drawable="com_google_android_youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="com_google_android_youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="com_google_android_youtube"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.tablet.HomeActivity}" drawable="com_google_android_youtube"/>
+
+    <!-- Whatsapp -->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="com_whatsapp"/>
+
+    <!-- Facebook -->
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="com_facebook_katana"/>
+
+    <!-- Google Calendar -->
+    <item component="ComponentInfo{com.google.android.calendar/com.google.android.calendar.homepage.AllInOneActivity}" drawable="com_google_android_calendar"/>
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.LaunchActivity}" drawable="com_google_android_calendar"/>
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="com_google_android_calendar"/>
+
+    <!-- Google Mail -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="googlemail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGooglemail}" drawable="googlemail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="googlemail"/>
+
+    <!-- Calendar -->
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.AllInOneActivity}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.LaunchActivity}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.android.calendar/com.android.calendar.CalendarTabActivity}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.htc.calendar/com.htc.calendar.CalendarActivityMain}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.lgl.calendar/com.lgl.calendar.activity.TabManagerActivity}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.motorola.calendar/com.motorola.calendar.LaunchActivity}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.sec.android.app.latin.launcher.calendar/com.sec.android.app.latin.launcher.calendar.Launcher}" drawable="com_sonyericsson_calendar"/>
+    <item component="ComponentInfo{com.sonyericsson.calendar/com.sonyericsson.calendar.monthview.MonthViewActivity}" drawable="com_sonyericsson_calendar"/>
+
+    <!-- Google Maps -->
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="com_google_android_apps_maps"/>
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.driveabout.app.DestinationActivity}" drawable="com_google_android_apps_maps"/>
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.PlacesActivity}" drawable="com_google_android_apps_maps"/>
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.LatitudeActivity}" drawable="com_google_android_apps_maps"/>
+
+    <!-- Instagram -->
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="com_instagram_android"/>
+
+    <!-- Slack -->
+    <item component="ComponentInfo{com.Slack/com.Slack.ui.HomeActivity}" drawable="com_slack"/>
+
+    <!-- Downloads -->
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="com_android_providers_downloads_ui"/>
+    <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadsListTab}" drawable="com_android_providers_downloads_ui"/>
+
+    <!-- Outlook -->
+    <item component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}" drawable="com_microsoft_office_outlook"/>
 </resources>
