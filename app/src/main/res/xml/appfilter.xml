@@ -82,9 +82,9 @@
     <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="com_google_android_calendar"/>
 
     <!-- Google Mail -->
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="googlemail"/>
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGooglemail}" drawable="googlemail"/>
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="googlemail"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="com_google_android_gm"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGooglemail}" drawable="com_google_android_gm"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGoogleMail}" drawable="com_google_android_gm"/>
 
     <!-- Calendar -->
     <item component="ComponentInfo{com.android.calendar/com.android.calendar.LaunchActivity}" drawable="com_sonyericsson_calendar"/>
