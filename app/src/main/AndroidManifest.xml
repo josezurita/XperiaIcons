@@ -4,8 +4,6 @@
     android:versionCode="1"
     android:versionName="1.0">
 
-    <uses-sdk android:minSdkVersion="14" />
-
     <application android:icon="@drawable/icon" android:label="@string/theme_title">
         <activity android:name="com.hechogato.xperiaicons.MainActivity" android:label="@string/theme_title">
             <intent-filter>

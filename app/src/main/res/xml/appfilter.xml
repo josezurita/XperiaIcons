@@ -51,6 +51,8 @@
 
     <!-- Music -->
     <item component="ComponentInfo{com.miui.player/com.miui.player.ui.MusicBrowserActivity}" drawable="com_android_mediacenter" />
+    <item component="ComponentInfo{com.miui.player/com.miui.player.drawerActivityGroup.MainActivityGroup}" drawable="com_android_mediacenter" />
+    <item component="ComponentInfo{com.miui.player/com.miui.player.component.MusicBrowserActivity}" drawable="com_android_mediacenter" />
 
     <!-- Video -->
     <item component="ComponentInfo{com.miui.videoplayer/com.miui.video.global.app.LauncherActivity}" drawable="com_android_videoplayer" />
@@ -88,6 +90,19 @@
     <!-- Facebook -->
     <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="com_facebook_katana"/>
 
+    <!-- Facebook Messenger -->
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.messenger.neue.MainActivity}" drawable="com_facebbok_orca"/>
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.messenger.auth.StartScreenActivity}" drawable="com_facebbok_orca" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="com_facebbok_orca"/>
+    <!--<item component="ComponentInfo{com.facebook.mlite/.coreui.view.MainActivity}" drawable="fb_messenger_lite" />
+    <item component="ComponentInfo{com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity}" drawable="ms_word" />
+    <item component="ComponentInfo{com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity}" drawable="ms_excel" />
+    <item component="ComponentInfo{com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity}" drawable="ms_powerpoint" />
+    <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity}" drawable="ms_onenote" />
+    <item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="ms_onedrive" />
+    <item component="ComponentInfo{com.skype.raider/com.skype.raider.Main}" drawable="skype" />-->
+
+
     <!-- Google Search -->
     <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="com_google_android_googlequicksearchbox"/>
 
@@ -98,7 +113,6 @@
 
     <!-- Google Play Games -->
     <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="com_google_android_play_games"/>
-
 
     <!-- Google Photos -->
     <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="photos"/>
